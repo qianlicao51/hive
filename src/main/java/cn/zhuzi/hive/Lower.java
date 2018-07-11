@@ -12,6 +12,7 @@ public class Lower extends UDF {
 		if (s == null) {
 			return null;
 		}
+		
 		return s.toString().toLowerCase();
 	}
 
